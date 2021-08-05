@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+/* common css */
+.mt-150 {
+  margin-top: 150px;
+}
+
+.fs-80 {
+  font-size: 80px;
+}
+
+/* Header */
+.header {
+  height: 100vh;
+  background: linear-gradient(#3396d2, #576fdf);
+}
+
+.logo {
+  object-fit: contain;
+  height: 80px;
+  /* margin-left: 15px; */
+  margin-top: 15px;
+}
+
+.menu {
+  display: flex;
+  margin-top: 25px;
+}
+
+.menu-item {
+  list-style-type: none;
+  margin: 0 8px;
+  padding: 5px 8px;
+}
+
+.menu-item a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.menu-item a:hover {
+  color: white;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px 45px;
+  border-radius: 30px;
+  background: #6662e4;
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* header main */
+
+.input-box {
+  width: 550px;
+}
+
+.input-box .input1 {
+  width: 80%;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 10px;
+  background: #4e79dc;
+  outline: none;
+  color: white;
+  border-right: 0;
+}
+
+.input-box .input1::placeholder {
+  color: rgba(255, 255, 255, 0.568);
+}
+
+.input-box .input2 {
+  width: 20%;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  padding: 10px;
+  background: #4e79dc;
+  outline: none;
+  color: white;
+  margin-left: -45px;
+  text-align: right;
+  margin-right: 30px;
+}
