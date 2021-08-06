@@ -47,14 +47,15 @@
   color: white;
 }
 
-.btn {
+.button {
   font-size: 18px;
   padding: 10px 45px;
   border-radius: 30px;
   background: #6662e4;
-  color: white;
+  color: white !important;
   margin-top: 20px;
   margin-left: 50px;
+  border: none;
 }
 
 /* header main */
@@ -92,4 +93,33 @@
   margin-left: -45px;
   text-align: right;
   margin-right: 30px;
+  cursor: pointer;
+}
+
+/* Responsive for laptop */
+
+@media only screen and (max-width: 1400px) {
+  .menu-item {
+    margin: 0 5px;
+    padding: 3px 6px;
+  }
+
+  .menu-item a {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 8px 35px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .fs-80 {
+    font-size: 60px;
+  }
+
+  .input-box {
+    width: 450px;
+  }
 }
